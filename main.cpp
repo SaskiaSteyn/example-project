@@ -2,6 +2,25 @@
 // Created by Joshua on 2024/10/16.
 //
 
-int main() {
-    return 0;
+#include "example.h"
+
+
+int functionA(){
+    int x = 2;
+    int y = 5;
+
+    int sum = x + y;
+
+    return sum;
 }
+
+int main() {
+    functionA();
+
+    int one = 5;
+    int two = 7;
+
+    example * newExample = new example();
+    newExample->sumVars(one, two);
+}
+

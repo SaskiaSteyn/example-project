@@ -8,7 +8,11 @@
 
 
 class example {
+    public:
+        int var1;
+        int var2;
 
+        int sumVars(int one, int two);
 };
 
 
