@@ -14,6 +14,10 @@ int functionA(){
     return sum;
 }
 
+int functionABC() {
+    return 12;
+}
+
 int main() {
     functionA();
 
@@ -22,5 +26,5 @@ int main() {
 
     example * newExample = new example();
     newExample->sumVars(one, two);
+    newExample->subtract();
 }
-

@@ -13,6 +13,7 @@ class example {
         int var2;
 
         int sumVars(int one, int two);
+        int subtract();
 };
 
 
