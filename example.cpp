@@ -3,3 +3,7 @@
 //
 
 #include "example.h"
+
+int example::sumVars(int one, int two) {
+    return one + two;
+}
