@@ -8,6 +8,6 @@ int example::subtract() {
     return this->varA - this->varB;
 }
 
-int example::sum() {
-    return this->varA + this->varB;
+int example::sumVars(int one, int two) {
+    return one + two;
 }

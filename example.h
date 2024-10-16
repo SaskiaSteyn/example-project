@@ -9,11 +9,11 @@
 
 class example {
     public:
-        int varA;
-        int varB;
+        int var1;
+        int var2;
 
+        int sumVars(int one, int two);
         int subtract();
-        int sum();
 };
 
 
