@@ -3,3 +3,11 @@
 //
 
 #include "example.h"
+
+int example::subtract() {
+    return this->varA - this->varB;
+}
+
+int example::sum() {
+    return this->varA + this->varB;
+}
